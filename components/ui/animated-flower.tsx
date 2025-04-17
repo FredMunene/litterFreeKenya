@@ -27,8 +27,8 @@ export function AnimatedFlower({
 
   useEffect(() => {
     // Calculate a random position within the container
-    const x = `${randomRange(5, 95)}%`
-    const y = `${randomRange(5, 95)}%`
+    const x = randomRange(5, 95)
+    const y = randomRange(5, 95)
     setPosition({ x, y })
   }, [index])
 
